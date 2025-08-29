@@ -10,6 +10,7 @@ hould ni
 
   
 
+  t
   
 - **POST /verify**: Basic claim verification using News API and Guardian API
 - **POST /verify-advanced**: Full TruthLens pipeline integration
