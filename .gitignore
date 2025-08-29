@@ -1,16 +1,15 @@
-# Data files
-/data/dataset/*
+# Ignore data files, but not DVC metafiles
+/data/*
+!/data/*.dvc
 
-# Python
+# Ignore Python cache files
 *.pyc
 __pycache__/
 
-# DVC
-/data/**/*.dvc
+# Ignore DVC temporary files and directories
 .dvc/cache
-.dvc/tmp
 .dvc/plots
+.dvc/tmp
 
-# But track DVC config
-!.dvc/config
-!.dvc/*.dvc
+# Ignore pytest cache
+.pytest_cache/
