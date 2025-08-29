@@ -8,7 +8,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y \
     gcc \
     g++ \
-    libgl1-mesa-glx \
+    libgl1 \
     libglib2.0-0 \
     libsm6 \
     libxext6 \
@@ -26,10 +26,10 @@ RUN apt-get update && apt-get install -y \
     libjpeg-dev \
     libpng-dev \
     libtiff-dev \
-    libatlas-base-dev \
+    libopenblas-dev \
+    liblapack-dev \
     libhdf5-dev \
     libhdf5-serial-dev \
-    libhdf5-103 \
     libgtk-3-dev \
     libboost-all-dev \
     && rm -rf /var/lib/apt/lists/*
