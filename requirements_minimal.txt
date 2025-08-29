@@ -24,6 +24,10 @@ PyYAML==6.0.2
 # Basic ML (lightweight)
 scikit-learn==1.7.1
 
+# Demo interfaces
+streamlit==1.48.0
+gradio==4.44.0
+
 # Commented out heavy dependencies for demo deployment
 # torch==2.6.0+cu124
 # transformers==4.54.1
