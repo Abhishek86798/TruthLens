@@ -1,0 +1,16 @@
+# Data files
+/data/dataset/*
+
+# Python
+*.pyc
+__pycache__/
+
+# DVC
+/data/**/*.dvc
+.dvc/cache
+.dvc/tmp
+.dvc/plots
+
+# But track DVC config
+!.dvc/config
+!.dvc/*.dvc
