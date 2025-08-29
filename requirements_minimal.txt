@@ -1,0 +1,36 @@
+# Minimal requirements for TruthLens API demo deployment
+# Core FastAPI dependencies
+fastapi==0.116.1
+uvicorn==0.35.0
+pydantic==2.11.7
+requests==2.32.4
+python-dotenv==1.1.1
+python-multipart==0.0.20
+
+# Basic NLP and data processing
+spacy==3.8.7
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
+numpy==2.2.6
+pandas==2.3.1
+
+# HTTP and async support
+httpx==0.13.3
+aiofiles==23.2.1
+
+# JSON and data handling
+python-json-logger==3.3.0
+PyYAML==6.0.2
+
+# Basic ML (lightweight)
+scikit-learn==1.7.1
+
+# Commented out heavy dependencies for demo deployment
+# torch==2.6.0+cu124
+# transformers==4.54.1
+# sentence-transformers==5.1.0
+# easyocr==1.7.2
+# faiss-cpu==1.11.0.post1
+# datasets==4.0.0
+# evaluate==0.4.5
+# moviepy==2.2.1
+# googletrans==4.0.0rc1
